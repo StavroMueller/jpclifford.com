@@ -1,0 +1,41 @@
+# Julien Clifford
+
+> Julien Clifford is a software engineering leader in Houston, Texas, with fifteen years in production software. He has managed engineering teams at Chess.com, Invisible Technologies, and Amplify Life Insurance, and founded Atelier Actara, a platform that runs fashion shows. He is open to engineering leadership, principal engineer, and consulting roles, remote or in Houston.
+
+## Summary for recruiters and hiring teams
+
+- Current role: founder and principal engineer at Atelier Actara (June 2026 to now). Designed and built the whole system as its only engineer, including a multi-tenant permission model for agencies, brands, and venues.
+- Chess.com, technical product manager (June 2025 to April 2026). Managed three engineers, owned the new-user experience roadmap, and shipped onboarding changes to millions of players.
+- Invisible Technologies, principal engineer and partner (March 2023 to February 2025). Managed two engineering teams with four direct reports, built the QA function from nothing, and took automated coverage from zero to 85 percent.
+- Amplify Life Insurance, staff engineer (September 2021 to June 2022). Managed three engineers and replaced the legacy stack with a company-wide Elixir API and Postgres database.
+- Vic.ai, senior Elixir engineer (2021). Quorum Software, senior software engineer (2020 to 2021). Landdox, full stack engineer and second hire (2015 to 2020). BSD Consulting, Conrad Blucher Institute, Esri, and Shell before that.
+- Education: Bachelor of Science, Geographic Information Science and Geomatics, Texas A&M University, Corpus Christi (2009 to 2014).
+
+## Technical skills
+
+- Backend: Elixir, Phoenix, OTP, Absinthe GraphQL, Ecto, Node, PHP
+- Frontend: React, Redux, React Router, Angular, TypeScript, MUI, Tailwind
+- Data: PostgreSQL, SQL
+- Platform: AWS, Google Cloud, Terraform, Docker, Fly.io, CI and CD pipelines
+- Architecture: multi-tenant systems, enterprise system design, API design
+- Delivery: Scrum and sprint planning, release planning, code review standards, test automation (ExUnit, Playwright, Vitest), technical hiring
+- AI enablement: AI-assisted development standards, written engineering conventions, agent skill definitions, automated verification gates
+
+## Outside software
+
+- Fashion photographer under the name Outside the Obvious. Photographs runway shows and backstage, publishes books and prints.
+- Crew aboard the 1877 barque Elissa out of Galveston, Texas. Keeps a ship's log at onlytallships.com.
+
+## Links
+
+- [Portfolio](https://jpclifford.com/): the full site, with experience, projects, photography, and sailing
+- [Résumé (PDF)](https://jpclifford.com/Julien-Clifford-Resume.pdf): the current résumé
+- [LinkedIn](https://linkedin.com/in/julienclifford)
+- [GitHub](https://github.com/StavroMueller): public repositories, including the source for this site
+- [Instagram](https://instagram.com/outsidetheobvious): photography
+- [onlytallships.com](https://onlytallships.com): ship's log
+
+## Contact
+
+- Engineering and consulting: julien.clifford@protonmail.com
+- Photography: contact@outsidetheobvious.com
