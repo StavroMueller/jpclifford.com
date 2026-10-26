@@ -283,3 +283,13 @@ html, body { overflow-x: hidden; max-width: 100%; }
 .hero-grid > *, .two-col > *, .three-up > *, .project-grid > *, .stat-row > *, .repo-list > * { min-width: 0; }
 .verse, p, li { overflow-wrap: anywhere; }
 img { max-width: 100%; }
+
+/* ---------- experience ---------- */
+.jobs { list-style: none; padding: 0; margin: 0; }
+.job { display: grid; grid-template-columns: 10rem 1fr; gap: 1.5rem; padding: 1.5rem 0; border-top: 1px solid var(--line); }
+.job:last-child { border-bottom: 1px solid var(--line); }
+.job .date { font-family: var(--mono); font-size: .8rem; color: var(--accent); white-space: nowrap; }
+.job .title { margin-bottom: .5rem; }
+.job .role { display: block; font-family: var(--sans); font-weight: 500; font-size: .6875rem; letter-spacing: .12em; text-transform: uppercase; color: var(--fg-muted); margin-top: .3rem; }
+.job p { font-size: 1rem; margin: 0; max-width: 72ch; }
+@media (max-width: 760px) { .job { grid-template-columns: 1fr; gap: .25rem; } }

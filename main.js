@@ -60,9 +60,9 @@ async function loadRepos() {
       li.appendChild(m);
       repoList.appendChild(li);
     }
-    if (!repos.length) repoList.innerHTML = '<li class="muted">nothing public right now.</li>';
+    if (!repos.length) repoList.innerHTML = '<li class="muted">Nothing public right now.</li>';
   } catch (err) {
-    repoList.innerHTML = '<li class="muted">github is not answering. the link below still works.</li>';
+    repoList.innerHTML = '<li class="muted">GitHub did not answer. The link below still works.</li>';
   }
 }
 loadRepos();
@@ -77,9 +77,11 @@ if (vcardBtn) {
       'FN:Julien Clifford',
       'N:Clifford;Julien;;;',
       'ORG:Atelier Actara',
-      'TITLE:Software Engineer & Photographer',
+      'TITLE:Software Development Manager',
       'URL:https://jpclifford.com',
-      'EMAIL:contact@outsidetheobvious.com',
+      'EMAIL;TYPE=work:julien.clifford@protonmail.com',
+      'EMAIL;TYPE=other:contact@outsidetheobvious.com',
+      'X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/julienclifford',
       'X-SOCIALPROFILE;TYPE=github:https://github.com/StavroMueller',
       'X-SOCIALPROFILE;TYPE=instagram:https://instagram.com/outsidetheobvious',
       'NOTE:Software, fashion shows, tall ships. Houston, Texas.',
