@@ -257,17 +257,10 @@
 
           <h3 class="title" style="margin-top:2rem">How it is built</h3>
           <p>
-            The back end is an Elixir and Phoenix umbrella with Absinthe GraphQL
-            in front of it. Shows, organizations, participants, permissions, venues, runways,
-            looks, guests, messaging, billing, delivery, and imports each live in their own app.
-            Oban runs background jobs, Stripe handles payments, and Postgres holds the data.
-          </p>
-          <p>
-            Four clients share that one schema. The web app is React 19 with Apollo Client and
-            MUI. The iOS app is native Swift, for models, crew, and
-            media. The Android app is Jetpack Compose with Apollo Kotlin and Hilt. An admin CLI
-            talks to the same API, so validation and business rules exist once. A separate
-            superadmin back office runs on Fly.io.
+            The back end is Elixir, split into separate apps for shows, people, permissions,
+            venues, guests, messaging, billing, and imports, with a GraphQL API in front of
+            it. Web, native iOS, native Android, and a command-line admin tool all use that one
+            API, so the business rules exist in one place.
           </p>
         </div>
         <div>
@@ -316,7 +309,7 @@
           <div class="job-when"><span class="date">Jun 2026 to now</span></div>
           <div>
             <h3 class="title">Atelier Actara <span class="role">Founder and principal engineer · Remote</span></h3>
-            <p>I designed and built the whole system as its only engineer: an Elixir umbrella behind GraphQL, with web, iOS, Android, and CLI clients, and the multi-tenant permission model that lets agencies, brands, and venues share a show. I set the pricing, wrote the financial plan, and designed the brand. The <a href="#atelier">section above</a> has the detail.</p>
+            <p>I designed and built the whole system as its only engineer: the Elixir back end, the web, iOS, and Android apps, and the multi-tenant permission model that lets agencies, brands, and venues share a show. I set the pricing, wrote the financial plan, and designed the brand. The <a href="#atelier">section above</a> has the detail.</p>
           </div>
         </li>
         <li class="job">
