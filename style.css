@@ -151,7 +151,6 @@ p { margin: 0 0 1rem; max-width: var(--measure); }
 .hero-grid { display: grid; grid-template-columns: 2fr 1fr; gap: clamp(2rem, 6vw, 5rem); align-items: end; }
 @media (max-width: 760px) { .hero-grid { grid-template-columns: 1fr; } .hero-portrait { order: -1; justify-self: start; text-align: left; } }
 .hero-portrait { position: relative; margin: 0; justify-self: end; text-align: right; width: min(360px, 70vw); padding: 16px; background: #d9dde2; border: 1px solid #d9dde2; }
-.hero-portrait::after { content: ""; position: absolute; inset: -14px; border: 2px solid var(--accent); pointer-events: none; }
 .hero-portrait img { display: block; width: 100%; height: auto; }
 .hero-actions { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: 1.75rem; }
 
