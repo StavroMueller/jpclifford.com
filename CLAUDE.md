@@ -80,7 +80,7 @@ resume/
 DESIGN.md              # Visual authority: tokens, type, named rules
 PRODUCT.md             # Copy authority: voice, bans, rulings (written for Atelier Actara; the voice rules apply here too)
 tools/copy-check/      # Prose tell checker: node tools/copy-check/check.mjs <file>, or pipe to stdin
-.agents/skills/        # copy-editing, copywriting, caveman, typeset, impeccable, and the AI-writing tell list
+.agents/skills/        # copy-editing, copywriting, caveman, typeset, impeccable, recruiter-read, and the AI-writing tell list
 ```
 
 Nothing outside `docs/` is served. Keep it that way: this file, the rules and the skills are private.

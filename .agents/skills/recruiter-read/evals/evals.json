@@ -1,0 +1,46 @@
+{
+  "skill_name": "recruiter-read",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "You are a recruiter who has read thousands of resumes. Read docs/Julien-Clifford-Resume.pdf and give feedback.",
+      "expected_output": "Runs scripts/scan.sh on the PDF and renders the page before judging. Opens with a one-line verdict (lazy AI, edited by checklist, or human). Reports every finding, numbered, in three groups: hard problems, tells, what works, each quoting the line. Covers dates and tenure, the top entry, headline versus recent roles, extraction faults, pronoun 'it', article density, uniform rhythm, repeated facts, weighting, unverifiable numbers. Ends with one priority order. Does not rewrite the resume unasked and does not add facts.",
+      "assertions": [
+        "Runs scan.sh and reads the extracted text",
+        "Renders the page and judges layout",
+        "Opens with a one-line verdict",
+        "Lists every finding with a severity, not a shortlist",
+        "Quotes the offending line for each finding",
+        "Names what works and should be kept",
+        "Gives one priority order after the full list",
+        "Does not invent facts or numbers"
+      ],
+      "files": ["docs/Julien-Clifford-Resume.pdf"]
+    },
+    {
+      "id": 2,
+      "prompt": "Does this resume look AI-generated? 'Results-driven engineer with a proven track record of spearheading cross-functional initiatives. Leveraged cutting-edge technologies to drive innovation and improve operational efficiency. Responsible for high-impact features.'",
+      "expected_output": "Verdict: lazy AI. Flags every stock phrase (results-driven, proven track record, spearheading, cross-functional, leveraged, cutting-edge, drive innovation, operational efficiency, responsible for, high-impact). Flags that no line carries an outcome, a number, a product or a named thing. Points to CLAUDE.md writing rules for the rewrite and asks for the facts behind each claim rather than inventing them.",
+      "assertions": [
+        "Verdict is lazy AI",
+        "Flags each stock phrase",
+        "Flags absence of outcomes and named things",
+        "Asks for the underlying facts instead of inventing replacements"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Check that the resume PDF will parse. docs/Julien-Clifford-Resume.pdf",
+      "expected_output": "Runs scan.sh, reports letter-spaced runs (none or listed), font embedding (CID TrueType expected, Type 3 is a failure), reading order of the extracted text, and any glyphs that extract as garbage. If a fault exists, names the CSS cause (tracking on uppercase labels, variable fonts, tables) and the fix, then rebuilds and re-extracts to prove the fix.",
+      "assertions": [
+        "Runs scan.sh",
+        "Reports on letter-spaced runs",
+        "Reports on font type and embedding",
+        "Names the CSS cause for any fault",
+        "Proves a fix by re-extracting"
+      ],
+      "files": ["docs/Julien-Clifford-Resume.pdf"]
+    }
+  ]
+}
