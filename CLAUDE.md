@@ -140,6 +140,15 @@ Julien had to reject the same underlying fault four separate times.
   - **The cause is worth naming:** stubs get written when optimizing for the scan rather than the ear,
     because a short final sentence puts the number where the eye lands. That is a layout instinct
     producing ad copy. Fix the layout in CSS, never in the prose.
+- **No pronoun "it" or "its" standing in for a thing.** Write the noun. "Three shows have run on it"
+  is a machine tell; say "a platform that has run three fashion shows". Sweep the whole document when
+  one is flagged (owner ruling, 2026-11-05).
+- **Do not lean on "the".** A bullet that opens "Built the X", "Wrote the X", "Designed the X" is a
+  tell, and so is a line stacking several: "Set the pricing, wrote the financial plan, and designed the
+  brand and the design system the product ships with" (five). Drop the article where speech would
+  ("Set pricing, wrote a financial plan"), or pick "a", "that", "one", "every". Keep "the" where speech
+  needs it: "after the acquisition", "from the first commit". Target under about one in eighty words;
+  the résumé went from 43 to 9 in 833 words (owner ruling, 2026-11-05).
 - **Vary sentence length.** Uniform length is itself a tell. A healthy spread runs roughly 6 to 28
   words with a median near 14. Two short sentences inside one bullet is staccato; merge them.
 - **Say it once.** Do not repeat a fact the title, heading, or neighboring line already states.
