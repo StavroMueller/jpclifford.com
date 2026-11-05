@@ -23,48 +23,50 @@
     --label: "IBM Plex Sans", Helvetica, Arial, sans-serif;
   }
 
-  @page { size: letter; margin: 0.52in 0.6in 0.5in 0.6in; }
+  @page { size: letter; margin: 0.45in 0.5in 0.42in 0.5in; }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { background: #fff; color: var(--ink); }
-  body { font-family: var(--body); font-size: 9.7pt; line-height: 1.33; }
+  body { font-family: var(--body); font-size: 9.3pt; line-height: 1.33; }
 
   a { color: inherit; text-decoration: none; }
 
+  /* One rail width for every date, label and term on the page. */
+  :root { --rail: 1.25in; --gutter: 14pt; --measure: 6.05in; }
+
   .name { font-family: var(--display); font-weight: 500; font-size: 30pt; line-height: 1; letter-spacing: -0.01em; }
-  .title { font-family: var(--label); font-size: 8.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-top: 7pt; }
-  .contact { font-size: 8.7pt; color: var(--stone); margin-top: 6pt; }
+  .title { font-family: var(--label); font-size: 8.4pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin-top: 7pt; }
+  .contact { font-size: 8.6pt; color: var(--stone); margin-top: 6pt; }
   .contact span + span::before { content: " / "; color: var(--rule-strong); }
 
-  .summary { margin-top: 10pt; font-size: 10.2pt; line-height: 1.38; }
+  .summary { margin-top: 10pt; font-size: 10pt; line-height: 1.4; max-width: 6.3in; }
 
-  section { margin-top: 10pt; padding-top: 7pt; border-top: 1px solid var(--rule); }
-  .section-label { font-family: var(--label); font-size: 7.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--charcoal); margin-bottom: 5pt; }
+  section { margin-top: 9pt; padding-top: 5pt; border-top: 1px solid var(--rule); }
+  .section-label { font-family: var(--label); font-size: 7.4pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--charcoal); margin-bottom: 6pt; }
 
-  .job { margin-top: 7pt; break-inside: avoid; }
+  /* Jobs: dates hang in the left rail, the text sits in a narrower column. */
+  .job { display: grid; grid-template-columns: var(--rail) 1fr; column-gap: var(--gutter); row-gap: 0; margin-top: 8pt; }
   .job:first-of-type { margin-top: 0; }
-  .job-head { display: flex; justify-content: space-between; align-items: baseline; break-after: avoid; }
-  .job-head h2 { font-family: var(--display); font-weight: 500; font-size: 13pt; line-height: 1.15; }
-  .when { font-size: 9pt; color: var(--stone); white-space: nowrap; }
-  .role { font-size: 9.7pt; margin-top: 1pt; }
-  .lede { font-size: 9.7pt; margin-top: 2pt; color: var(--charcoal); }
-  ul { list-style: none; margin-top: 3pt; }
-  li { position: relative; padding-left: 11pt; margin-top: 1pt; }
+  .job-head { display: contents; }
+  .job-head h2 { grid-column: 2; grid-row: 1; font-family: var(--display); font-weight: 500; font-size: 13pt; line-height: 1.15; break-after: avoid; }
+  .when { grid-column: 1; grid-row: 1 / span 20; font-family: var(--label); font-size: 7.8pt; line-height: 1.5; color: var(--stone); padding-top: 3pt; }
+  .role { grid-column: 2; font-size: 9.6pt; margin-top: 1pt; color: var(--charcoal); font-style: italic; break-after: avoid; }
+  .lede { grid-column: 2; margin-top: 3pt; color: var(--charcoal); max-width: var(--measure); }
+  ul { grid-column: 2; list-style: none; margin-top: 3pt; max-width: var(--measure); }
+  li { position: relative; padding-left: 11pt; margin-top: 2pt; }
   li::before { content: "–"; position: absolute; left: 1pt; color: var(--rule-strong); }
 
-  .earlier .row { display: flex; justify-content: space-between; align-items: baseline; margin-top: 6pt; break-after: avoid; }
+  .earlier .row, .edu .row { display: grid; grid-template-columns: var(--rail) 1fr; column-gap: var(--gutter); margin-top: 6pt; break-after: avoid; }
   .earlier .row:first-of-type { margin-top: 0; }
-  .earlier .row h2 { font-family: var(--body); font-weight: 600; font-size: 9.7pt; }
-  .earlier p { margin-top: 1pt; }
+  .earlier .row h2, .edu h2 { grid-column: 2; font-family: var(--body); font-weight: 600; font-size: 9.6pt; }
+  .earlier .row .when, .edu .row .when { grid-row: 1; padding-top: 1pt; }
+  .earlier p:not(.section-label), .edu p:not(.section-label) { margin-left: calc(var(--rail) + var(--gutter)); margin-top: 1pt; max-width: var(--measure); }
 
-  .tech dl { margin-top: 2pt; }
-  .tech div { display: flex; gap: 6pt; margin-top: 2pt; }
-  .tech dt { font-family: var(--label); font-size: 7.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--stone); flex: 0 0 96pt; padding-top: 2pt; }
-  .tech dd { flex: 1; }
+  .tech dl { margin-top: 0; }
+  .tech div { display: grid; grid-template-columns: var(--rail) 1fr; column-gap: var(--gutter); margin-top: 3pt; }
+  .tech dt { font-family: var(--label); font-size: 7.4pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--stone); padding-top: 2pt; }
 
   .edu { break-inside: avoid; }
-  .edu .row { display: flex; justify-content: space-between; align-items: baseline; }
-  .edu h2 { font-family: var(--body); font-weight: 600; font-size: 9.7pt; }
 </style>
 </head>
 <body>
@@ -78,68 +80,65 @@
 </header>
 
 <p class="summary">
-  Fifteen years building production software, most of it in Elixir and React on Postgres. Sole engineer on Atelier Actara, a platform that runs fashion shows, with web, iOS, and Android clients on one GraphQL API. Spent two years at Invisible Technologies delivering to OpenAI, Microsoft, Google, and Amazon, and built the QA function there. Engineers have reported to me at Chess.com, Invisible, and Amplify Life Insurance. Before that, energy and industrial software at Landdox, Quorum, and BSD Consulting.
+  Over 15 years building production software. Sole engineer on Atelier Actara, a platform that runs fashion shows, with web, iOS, and Android clients on one GraphQL API. Spent two years at Invisible Technologies delivering to OpenAI, Microsoft, Google, and Amazon, and built the QA function there. Engineers have reported to me at Chess.com, Invisible, and Amplify Life Insurance. Before that, energy and industrial software at Landdox, Quorum, and BSD Consulting.
 </p>
 
 <section>
   <p class="section-label">Experience</p>
 
   <article class="job">
-    <div class="job-head"><h2>Atelier Actara</h2><span class="when">June 2026 to present</span></div>
+    <div class="job-head"><h2>Atelier Actara</h2><span class="when">Dec 2022 to present</span></div>
     <p class="role">Founder and Principal Engineer / Remote</p>
-    <p class="lede">A platform that runs fashion shows: casting, lineup, venues, guest lists, and check-in. First commit December 2022, built alongside the roles below.</p>
+    <p class="lede">A platform that has run three fashion shows, covering casting, lineup, venues, guest lists, and check-in, built alongside the roles below.</p>
     <ul>
-      <li>Designed and built the whole system as its only engineer: an Elixir and Phoenix back end split into domain apps behind one GraphQL API, a React and TypeScript web client, Postgres, and the Google Cloud and Fly.io infrastructure it runs on.</li>
-      <li>Built the multi-tenant permission model that lets agencies, brands, and venues work the same show without seeing each other's data.</li>
-      <li>Put native iOS and Android apps and a command-line admin tool on the same API, so the business rules exist in one place.</li>
-      <li>Made AI-assisted development the documented standard: written engineering conventions, agent skill definitions, and verification gates that run before a change ships, including a check that fails copy on known machine-writing tells.</li>
-      <li>Set the pricing, wrote the financial plan, and designed the brand and the design system the product ships with.</li>
+      <li>Designed and built every layer: an Elixir and Phoenix back end split into domain apps behind one GraphQL API, a React and TypeScript web client, Postgres, and hosting on Google Cloud and Fly.io.</li>
+      <li>Built a multi-tenant permission model that lets agencies, brands, and venues work one show without seeing each other's data.</li>
+      <li>Put native iOS and Android apps and a command-line admin tool on that same API, so business rules live in one place.</li>
+      <li>Wrote engineering conventions and skill files that AI coding agents work from, plus checks that run before a change ships, one of which rejects copy that reads as machine-written.</li>
+      <li>Set pricing, wrote a financial plan, and designed the brand and design system.</li>
     </ul>
   </article>
 
   <article class="job">
-    <div class="job-head"><h2>Chess.com</h2><span class="when">June 2025 to April 2026</span></div>
+    <div class="job-head"><h2>Chess.com</h2><span class="when">June 2025 to Apr 2026</span></div>
     <p class="role">Technical Product Manager / Remote</p>
     <ul>
-      <li>Wrote the specs engineers built from, refining loose product requirements into scoped, estimated work.</li>
-      <li>Led two engineering teams through the onboarding work, shipping changes to millions of players.</li>
-      <li>Added the onboarding and activation metrics the team uses to judge funnel changes.</li>
-      <li>Managed three engineers and owned the new-user experience roadmap and its release plan.</li>
+      <li>Wrote specs engineers built from, refining loose product requirements into scoped, estimated work.</li>
+      <li>Led two engineering teams through new-player onboarding work, from spec to release, for millions of new players.</li>
+      <li>Added onboarding and activation metrics the team uses to judge funnel changes.</li>
+      <li>Built a configuration layer that varies onboarding per player, choosing which steps a new player sees from that player's details, and runs experiments on those variations.</li>
+      <li>Managed three engineers and owned the new-user experience roadmap and release plan.</li>
     </ul>
   </article>
 
   <article class="job">
-    <div class="job-head"><h2>Invisible Technologies</h2><span class="when">March 2023 to February 2025</span></div>
+    <div class="job-head"><h2>Invisible Technologies</h2><span class="when">Mar 2023 to Feb 2025</span></div>
     <p class="role">Principal Engineer and Partner / Remote</p>
     <p class="lede">An AI services company delivering to OpenAI, Microsoft, Google, and Amazon.</p>
     <ul>
-      <li>Built the QA function from nothing: testing standards, documentation, and an automated suite that took coverage from zero to 85 percent.</li>
-      <li>Designed and built the terms of service and statement of work system, with the data model and rules for the contracts behind each client engagement, and in-app time tracking against those agreements.</li>
+      <li>Set up QA: testing standards, documentation, and an automated suite that took coverage from zero to 85 percent.</li>
+      <li>Designed and built a terms-of-service and statement-of-work system: a data model and rules for each client contract, with in-app time tracking against those agreements.</li>
       <li>Managed two engineering teams in parallel, four engineers reporting to me, owning delivery, hiring, and performance for both.</li>
-      <li>Ran technical hiring, sourcing externally and promoting engineers from inside the company.</li>
+      <li>Ran technical hiring, sourcing outside and promoting from within.</li>
+      <li>Worked in Python, Django, and Flask on services behind client work.</li>
     </ul>
   </article>
 
-  <article class="job">
-    <div class="job-head"><h2>Applied Generics</h2><span class="when">June 2022 to present</span></div>
-    <p class="role">Founder / Remote, alongside the roles above</p>
-    <p class="lede">An independent practice building APIs and full applications for clients, and where Atelier Actara started.</p>
-  </article>
 
   <article class="job">
-    <div class="job-head"><h2>Amplify Life Insurance</h2><span class="when">September 2021 to June 2022</span></div>
+    <div class="job-head"><h2>Amplify Life Insurance</h2><span class="when">Sep 2021 to June 2022</span></div>
     <p class="role">Staff Engineer / Remote</p>
-    <p class="lede">A life insurer that was standing up its first engineering team and software stack.</p>
+    <p class="lede">A life insurer building a first engineering team and software stack.</p>
     <ul>
-      <li>Replaced the legacy stack with a company-wide API server and Postgres database in Elixir, with continuous integration and tests from the first commit.</li>
-      <li>Built the React and Redux front ends against the new API.</li>
-      <li>Defined the code review policy the engineering team used, and reviewed both front end and back end.</li>
-      <li>Managed three engineers, and ran sprint planning, scoping, and retrospectives for the team.</li>
+      <li>Replaced a legacy stack with a company-wide Elixir API server and Postgres database, with continuous integration and tests from the first commit.</li>
+      <li>Built React and Redux front ends against that API.</li>
+      <li>Wrote the team's code review policy, and reviewed both front end and back end.</li>
+      <li>Managed three engineers, and ran sprint planning, scoping, and retrospectives.</li>
     </ul>
   </article>
 
   <article class="job">
-    <div class="job-head"><h2>Vic.ai</h2><span class="when">June 2021 to September 2021</span></div>
+    <div class="job-head"><h2>Vic.ai</h2><span class="when">June 2021 to Sep 2021</span></div>
     <p class="role">Senior Elixir Engineer / Remote</p>
     <ul>
       <li>Shipped core Elixir for an early-stage startup, including a CSV importer that handled arbitrary client file formats, and introduced retrospectives, documentation, and project planning.</li>
@@ -147,21 +146,21 @@
   </article>
 
   <article class="job">
-    <div class="job-head"><h2>Quorum Software</h2><span class="when">October 2020 to May 2021</span></div>
+    <div class="job-head"><h2>Quorum Software</h2><span class="when">Oct 2020 to May 2021</span></div>
     <p class="role">Senior Software Engineer / Houston, Texas</p>
     <p class="lede">Enterprise software for the energy industry.</p>
     <ul>
-      <li>Integrated the Landdox product into Quorum's enterprise legacy codebase after the acquisition.</li>
+      <li>Integrated Landdox into Quorum's enterprise codebase after the acquisition.</li>
     </ul>
   </article>
 
   <article class="job">
-    <div class="job-head"><h2>Landdox</h2><span class="when">June 2015 to October 2020</span></div>
+    <div class="job-head"><h2>Landdox</h2><span class="when">June 2015 to Oct 2020</span></div>
     <p class="role">Full Stack Engineer, second engineer hired / Houston, Texas</p>
     <p class="lede">Land management software for oil and gas, acquired by Quorum Software in 2020.</p>
     <ul>
-      <li>Planned and led the major features: mapping, bulk data import, and a system that generated payment checks.</li>
-      <li>Worked across the full stack and the infrastructure: Elixir, Node, Angular, React, AWS, and Terraform.</li>
+      <li>Planned and led major features: mapping, bulk data import, and a system that generated payment checks.</li>
+      <li>Worked across stack and infrastructure: Elixir, Node, Angular, React, AWS, and Terraform.</li>
       <li>Interviewed and hired engineers, and joined sales calls to answer technical questions.</li>
     </ul>
   </article>
@@ -180,13 +179,10 @@
 <section class="tech">
   <p class="section-label">Technical</p>
   <dl>
-    <div><dt>Backend</dt><dd>Elixir and Phoenix, OTP, Absinthe GraphQL, Ecto, Node, PHP</dd></div>
+    <div><dt>Backend</dt><dd>Elixir and Phoenix, OTP, Absinthe GraphQL, Ecto, Python, Django, Flask, Node, PHP, PostgreSQL</dd></div>
     <div><dt>Frontend</dt><dd>React, Redux, React Router, Angular, TypeScript, MUI, Tailwind</dd></div>
-    <div><dt>Data</dt><dd>PostgreSQL, SQL</dd></div>
     <div><dt>Platform</dt><dd>AWS, Google Cloud, Terraform, Docker, Fly.io, CI and CD pipelines</dd></div>
-    <div><dt>Architecture</dt><dd>Multi-tenant systems, GraphQL API design, one API behind web, iOS, and Android clients</dd></div>
     <div><dt>Delivery</dt><dd>Scrum and sprint planning, release planning, code review standards, test automation (ExUnit, Playwright, Vitest), technical hiring</dd></div>
-    <div><dt>AI enablement</dt><dd>AI-assisted development standards, written engineering conventions, agent skill definitions, automated verification gates</dd></div>
   </dl>
 </section>
 
