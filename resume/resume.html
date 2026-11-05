@@ -32,14 +32,14 @@
   a { color: inherit; text-decoration: none; }
 
   .name { font-family: var(--display); font-weight: 500; font-size: 30pt; line-height: 1; letter-spacing: -0.01em; }
-  .title { font-family: var(--label); font-size: 8.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-top: 7pt; }
+  .title { font-family: var(--label); font-size: 8.4pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin-top: 7pt; }
   .contact { font-size: 8.7pt; color: var(--stone); margin-top: 6pt; }
   .contact span + span::before { content: " / "; color: var(--rule-strong); }
 
   .summary { margin-top: 10pt; font-size: 10.2pt; line-height: 1.38; }
 
   section { margin-top: 10pt; padding-top: 7pt; border-top: 1px solid var(--rule); }
-  .section-label { font-family: var(--label); font-size: 7.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--charcoal); margin-bottom: 5pt; }
+  .section-label { font-family: var(--label); font-size: 7.4pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--charcoal); margin-bottom: 5pt; }
 
   .job { margin-top: 7pt; break-inside: avoid; }
   .job:first-of-type { margin-top: 0; }
@@ -59,7 +59,7 @@
 
   .tech dl { margin-top: 2pt; }
   .tech div { display: flex; gap: 6pt; margin-top: 2pt; }
-  .tech dt { font-family: var(--label); font-size: 7.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--stone); flex: 0 0 96pt; padding-top: 2pt; }
+  .tech dt { font-family: var(--label); font-size: 7.4pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--stone); flex: 0 0 96pt; padding-top: 2pt; }
   .tech dd { flex: 1; }
 
   .edu { break-inside: avoid; }
@@ -78,21 +78,21 @@
 </header>
 
 <p class="summary">
-  Fifteen years building production software, most of it in Elixir and React on Postgres. Sole engineer on Atelier Actara, a platform that runs fashion shows, with web, iOS, and Android clients on one GraphQL API. Spent two years at Invisible Technologies delivering to OpenAI, Microsoft, Google, and Amazon, and built the QA function there. Engineers have reported to me at Chess.com, Invisible, and Amplify Life Insurance. Before that, energy and industrial software at Landdox, Quorum, and BSD Consulting.
+  Over 15 years building production software. Sole engineer on Atelier Actara, a platform that runs fashion shows, with web, iOS, and Android clients on one GraphQL API. Spent two years at Invisible Technologies delivering to OpenAI, Microsoft, Google, and Amazon, and built the QA function there. Engineers have reported to me at Chess.com, Invisible, and Amplify Life Insurance. Before that, energy and industrial software at Landdox, Quorum, and BSD Consulting.
 </p>
 
 <section>
   <p class="section-label">Experience</p>
 
   <article class="job">
-    <div class="job-head"><h2>Atelier Actara</h2><span class="when">June 2026 to present</span></div>
+    <div class="job-head"><h2>Atelier Actara</h2><span class="when">December 2022 to present</span></div>
     <p class="role">Founder and Principal Engineer / Remote</p>
-    <p class="lede">A platform that runs fashion shows: casting, lineup, venues, guest lists, and check-in. First commit December 2022, built alongside the roles below.</p>
+    <p class="lede">A platform that has run three fashion shows, covering casting, lineup, venues, guest lists, and check-in, built alongside the roles below.</p>
     <ul>
-      <li>Designed and built the whole system as its only engineer: an Elixir and Phoenix back end split into domain apps behind one GraphQL API, a React and TypeScript web client, Postgres, and the Google Cloud and Fly.io infrastructure it runs on.</li>
+      <li>Designed and built the whole system as the only engineer: an Elixir and Phoenix back end split into domain apps behind one GraphQL API, a React and TypeScript web client, Postgres, and the hosting on Google Cloud and Fly.io.</li>
       <li>Built the multi-tenant permission model that lets agencies, brands, and venues work the same show without seeing each other's data.</li>
       <li>Put native iOS and Android apps and a command-line admin tool on the same API, so the business rules exist in one place.</li>
-      <li>Made AI-assisted development the documented standard: written engineering conventions, agent skill definitions, and verification gates that run before a change ships, including a check that fails copy on known machine-writing tells.</li>
+      <li>Wrote the engineering conventions and skill files that AI coding agents work from, and the checks that run before a change ships, one of which rejects copy that reads as machine-written.</li>
       <li>Set the pricing, wrote the financial plan, and designed the brand and the design system the product ships with.</li>
     </ul>
   </article>
@@ -102,9 +102,10 @@
     <p class="role">Technical Product Manager / Remote</p>
     <ul>
       <li>Wrote the specs engineers built from, refining loose product requirements into scoped, estimated work.</li>
-      <li>Led two engineering teams through the onboarding work, shipping changes to millions of players.</li>
+      <li>Led two engineering teams through the new-player onboarding work, from spec to release, for millions of new players.</li>
       <li>Added the onboarding and activation metrics the team uses to judge funnel changes.</li>
-      <li>Managed three engineers and owned the new-user experience roadmap and its release plan.</li>
+      <li>Built the configuration layer that varies onboarding per player, choosing the steps a new player sees from that player's details, and runs experiments on those variations.</li>
+      <li>Managed three engineers and owned the new-user experience roadmap and release plan.</li>
     </ul>
   </article>
 
@@ -113,23 +114,19 @@
     <p class="role">Principal Engineer and Partner / Remote</p>
     <p class="lede">An AI services company delivering to OpenAI, Microsoft, Google, and Amazon.</p>
     <ul>
-      <li>Built the QA function from nothing: testing standards, documentation, and an automated suite that took coverage from zero to 85 percent.</li>
+      <li>Built the QA function: testing standards, documentation, and an automated suite that took coverage from zero to 85 percent.</li>
       <li>Designed and built the terms of service and statement of work system, with the data model and rules for the contracts behind each client engagement, and in-app time tracking against those agreements.</li>
       <li>Managed two engineering teams in parallel, four engineers reporting to me, owning delivery, hiring, and performance for both.</li>
       <li>Ran technical hiring, sourcing externally and promoting engineers from inside the company.</li>
+      <li>Worked in Python, Django, and Flask across the services behind the client work.</li>
     </ul>
   </article>
 
-  <article class="job">
-    <div class="job-head"><h2>Applied Generics</h2><span class="when">June 2022 to present</span></div>
-    <p class="role">Founder / Remote, alongside the roles above</p>
-    <p class="lede">An independent practice building APIs and full applications for clients, and where Atelier Actara started.</p>
-  </article>
 
   <article class="job">
     <div class="job-head"><h2>Amplify Life Insurance</h2><span class="when">September 2021 to June 2022</span></div>
     <p class="role">Staff Engineer / Remote</p>
-    <p class="lede">A life insurer that was standing up its first engineering team and software stack.</p>
+    <p class="lede">A life insurer building a first engineering team and software stack.</p>
     <ul>
       <li>Replaced the legacy stack with a company-wide API server and Postgres database in Elixir, with continuous integration and tests from the first commit.</li>
       <li>Built the React and Redux front ends against the new API.</li>
@@ -180,7 +177,7 @@
 <section class="tech">
   <p class="section-label">Technical</p>
   <dl>
-    <div><dt>Backend</dt><dd>Elixir and Phoenix, OTP, Absinthe GraphQL, Ecto, Node, PHP</dd></div>
+    <div><dt>Backend</dt><dd>Elixir and Phoenix, OTP, Absinthe GraphQL, Ecto, Python, Django, Flask, Node, PHP</dd></div>
     <div><dt>Frontend</dt><dd>React, Redux, React Router, Angular, TypeScript, MUI, Tailwind</dd></div>
     <div><dt>Data</dt><dd>PostgreSQL, SQL</dd></div>
     <div><dt>Platform</dt><dd>AWS, Google Cloud, Terraform, Docker, Fly.io, CI and CD pipelines</dd></div>
