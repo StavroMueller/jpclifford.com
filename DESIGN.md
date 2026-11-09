@@ -291,11 +291,12 @@ State transitions run 150 to 250ms on eased curves, and reveals use `cubic-bezie
 
 ### The résumé takes oxblood as its accent and no gold
 
-`resume/resume.html` prints on the newsprint ground with ink rules, and its one accent is the
+`resume/resume.html` prints on white with ink rules, and its one accent is the
 runway ramp's oxblood (#7A1E24) on the title, the rail dates, the section labels and the bullet
 dashes. Gold is not used anywhere on the résumé: the owner sees gold accents on a great deal of
 generated design and does not want the résumé read that way. The Rationed Gold rule stands for the
-product; this is a document ruling (owner ruling, 2026-11-06).
+product; this is a document ruling (owner ruling, 2026-11-06). The page stays white: a tinted
+ground on a résumé PDF reads as cream on screen, and the owner rejected it (owner ruling, 2026-11-09).
 
 Decisions the styles obey but cannot state.
 
