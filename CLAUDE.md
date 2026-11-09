@@ -156,6 +156,49 @@ Julien had to reject the same underlying fault four separate times.
   summary, the title line, and a bullet of the same block.
 - **No vague grandiosity.** "high-impact features", "business-critical code", "under hard deadlines",
   "drove the architecture work behind it". Name the thing or cut the adjective.
+- **Check every claim against the thing itself.** Before a sentence about a product ships, open
+  the product or the code and confirm each fact in the sentence. Copy lifted from another page of
+  ours gets the same check, because an approved page can be wrong (owner ruling, 2026-11-09).
+  - **Rejected, and why:** "puts five fishing rods on a dock in Louisiana" (Rod Tips Only shows no
+    dock and names no place; the line had been copied from this site's project card). "some get
+    away" (the game's code says nobody reels, so every fish gets off).
+- **A product does not act like a person.** A game does not "put", "wait", "want" or "let you".
+  Say what a person sees or does. Rejected: "Rod Tips Only puts five fishing rods on a dock and
+  waits for a bite" (say "Rod Tips Only shows five fishing rods").
+- **No metaphor where the literal word exists.** Rejected: "a chain of rigid links" (say "made of
+  rigid links"). This is separate from the metaphor-reuse ban above: one metaphor is already one
+  too many when a plain noun does the job.
+- **No closing clause that claims the result is good.** A sentence that ends "so the bend under a
+  fish matches a real rod" or "so the creature can walk" has stopped reporting and started selling.
+  State how the thing is built and stop.
+- **No cute lines.** A wink is a flourish. Rejected: "and all you do is watch the tips", "bite now
+  and then", "Flat as a pancake.", "Pick a machine.", "That is the whole toy."
+- **No teaser where a fact belongs.** Rejected: "watch what happens to the square" (say "gravity
+  will pull the square down"), "see whether your creature can walk", "to see the muscle work".
+- **No three-beat sentence.** Three short clauses in a row, or three short sentences in a row, is
+  tagline rhythm. Rejected: "Draw a creature out of dots and springs. Give it muscles. Watch it
+  walk." and the one-sentence version "You draw a creature, turn some springs into muscles, and
+  see whether your creature can walk."
+- **No stacked technical terms.** One technical noun phrase per clause. Rejected: "a tapered
+  cantilever beam, a chain of rigid links joined by torsion springs and solved with XPBD" as one
+  breath of three appositives.
+- **Use the product's own words.** If the game says "mass", the page about the game does not say
+  "dots". If the menu shows the word "construct", instructions say "change construct to simulate"
+  and never "the mode menu", a label the reader cannot see.
+- **My own pages speak in first person.** A page of mine about a thing I made says "I" and "my",
+  as the project cards on this site do. A card with no speaker reads as an app-store blurb.
+  Rejected: "A remake of Sodaconstructor, the browser toy Ed Burton released in 2000." (say
+  "Jigglewalk is my remake of Sodaconstructor").
+- **No pitch line under a heading, and no stock promise.** Rejected: "Every game on this page runs
+  in your browser with nothing to install." under "Games I made". The heading stands alone.
+- **One fact gets one place on a page, metadata included.** The page title, meta description,
+  social description, heading and intro must not carry the same sentence. Rejected: the
+  "nothing to install" line used as intro, meta description and social description at once.
+- **No label for a state that will change.** Rejected: a "Status: still being built" row on each
+  game, because everything stays in flux and the label goes stale.
+- **A pass from the script is the floor.** Copy that passed `copy-check` was rejected three times in
+  one session for the faults above, which a word list cannot see. After the script passes, read the
+  text against each rule in this list.
 - **When one instance is flagged, find the pattern and sweep the whole artifact.** Julien flags one
   line; the same habit is always in five more places. Patching only the flagged instance wastes his
   next turn. Diagnose the class of fault, then grep for every member of that class.
