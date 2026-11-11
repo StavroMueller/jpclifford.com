@@ -156,6 +156,11 @@ Julien had to reject the same underlying fault four separate times.
   summary, the title line, and a bullet of the same block.
 - **No vague grandiosity.** "high-impact features", "business-critical code", "under hard deadlines",
   "drove the architecture work behind it". Name the thing or cut the adjective.
+- **No totalizing claim as a summary.** "wrote every layer", "I write every part, from schema to
+  apps", "governs every word on screen", "end to end". A sweep word standing in for a list is a
+  tell. State the scope as a fact ("the only engineer") and list the parts ("back end, web, iOS,
+  Android, admin tool"). Sweep for "every layer", "every part", "every word", "end to end",
+  "from X to Y" used as a boast (owner ruling, 2026-11-11).
 - **Check every claim against the thing itself.** Before a sentence about a product ships, open
   the product or the code and confirm each fact in the sentence. Copy lifted from another page of
   ours gets the same check, because an approved page can be wrong (owner ruling, 2026-11-09).
