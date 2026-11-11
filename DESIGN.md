@@ -279,6 +279,7 @@ State transitions run 150 to 250ms on eased curves, and reveals use `cubic-bezie
 - **Don't** build a generic SaaS dashboard, a social feed or an event-ticketing template (see PRODUCT.md).
 - **Don't** write a font-family string, a letter-spacing value or a hex color in a component.
 - **Don't** put a marker above every block, or stack an eyebrow over a card title.
+- **Don't** number section markers ("01 · Work", "02 · Atelier Actara"). Zero-padded section numerals are a generated-portfolio tell; a marker is the section name alone (owner ruling, 2026-11-11).
 - **Don't** use gold as a fill, a hover color, a selection tint, a decorative rule or a link color.
 - **Don't** add a drop shadow to a resting or hovered card, or nest a card inside a card.
 - **Don't** round a corner or draw a status dot as a circle.
