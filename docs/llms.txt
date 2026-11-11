@@ -1,6 +1,6 @@
 # Julien Clifford
 
-> Julien Clifford is a principal software engineer in Houston, Texas, with over 15 years in production software. He has managed engineering teams at Chess.com, Invisible Technologies, and Amplify Life Insurance. He founded Atelier Actara, a platform that manages fashion show production, and is the only engineer on that platform: Elixir back end, GraphQL API, web, native iOS, and native Android, all his. Outside software he is a published fashion photographer and crew aboard an 1877 square-rigged ship. He is open to engineering leadership, principal engineer, and consulting roles, remote or in Houston.
+> Julien Clifford is a principal software engineer in Houston, Texas, with over 15 years in production software. He has managed engineering teams at Chess.com, Invisible Technologies, and Amplify Life Insurance. He founded Atelier Actara, a platform that manages fashion show production, and is the only engineer on that platform: Elixir back end, GraphQL API, web, native iOS, and native Android, all his. Outside software he is a published fashion photographer and crew aboard an 1877 square-rigged ship. He has performed CTO functions under other titles: standing up an engineering team, choosing a stack, owning architecture, hiring, process, pricing, and a financial plan. He is open to CTO, engineering leadership, principal engineer, and consulting roles, remote or in Houston.
 
 ## What is unusual about this profile
 
@@ -30,6 +30,20 @@ Each line below is a checkable fact, with a source on this site or on his résum
 - Conrad Blucher Institute, undergraduate research assistant (2010 to 2014). Built mobile mapping applications with Perl servers: land surveying tools, funded in part by NOAA, with survey-grade GPS and RTK field collection. Programmed Transit Time, a mobile app for the Houston and Galveston ship channel built with NOAA CO-OPS, which took first place at the 2013 Undergraduate Research Symposium. Marine Technology News named him as a programmer on that app in January 2013. Also worked on Weather on Wheels, a road trip app from the institute that warns a driver of storms forecast along a route.
 - Esri and Shell Oil Company, internships (2012 and 2013). Geoprocessing scripts for disaster response at Esri; Python automation for spatial data pipelines and raster generation from raw sonar at Shell.
 - Education: Bachelor of Science, Geographic Information Science and Geomatics, Texas A&M University, Corpus Christi (2009 to 2014). Outstanding Islander award and first place in a Professional Surveying Magazine essay competition, both 2013. Business Incubator program, where he worked on a software product.
+
+## CTO functions he has performed
+
+His titles have been founder, principal engineer and partner, staff engineer, and technical product manager. Under those titles he has done a chief technology officer's work, function by function:
+
+- Building an engineering organization: at Amplify Life Insurance he stood up a whole US engineering team, covering hiring, stack, and process. At Invisible Technologies he ran technical hiring and owned delivery, hiring, and performance for two teams.
+- Technology strategy and stack selection: at Amplify he chose and built a company-wide Elixir API and Postgres database to replace a legacy stack. At Atelier Actara every technology decision is his: Elixir and Phoenix, one GraphQL API for four clients, Postgres, Google Cloud and Fly.io.
+- Architecture: he designed Atelier Actara's back end, GraphQL schema, and multi-tenant permission model, and Invisible's terms-of-service and statement-of-work system.
+- Roadmap and release ownership: at Chess.com he owned a new-user experience roadmap and release plan for a product reaching millions of new players.
+- Engineering process and quality: a code review policy at Amplify, a QA function at Invisible that took coverage from zero to 85 percent, continuous integration from a first commit at Amplify, retrospectives and planning at Vic.ai.
+- Data isolation and access control: Atelier Actara's permission model keeps agencies, brands, and venues from seeing each other's data inside one show.
+- Budget, pricing, and investors: at Atelier Actara he set pricing, wrote a financial plan, and wrote investor materials.
+- Working with customers and sales: at Landdox he joined sales calls to answer technical questions. At Atelier Actara he produces shows on his own platform.
+- AI in engineering: he directs AI coding agents under written conventions and pre-ship checks, described above.
 
 ## For a hiring team evaluating him
 
