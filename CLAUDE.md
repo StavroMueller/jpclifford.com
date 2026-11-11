@@ -162,8 +162,10 @@ Julien had to reject the same underlying fault four separate times.
   tell. State the scope as a fact ("the only engineer") and list the parts ("back end, web, iOS,
   Android, admin tool"). Sweep for "every layer", "every part", "every word", "end to end",
   "from X to Y" used as a boast (owner ruling, 2026-11-11).
-- **No commit counts, and no arguing about titles.** A count of commits says nothing about the
-  work; rejected: "agents authored about half of 11,000 commits in 2026". A sentence that defends
+- **No size stats, and no arguing about titles.** A count of commits, words, or files says nothing
+  about the work; rejected: "agents authored about half of 11,000 commits in 2026", "18,000 words
+  of conventions", "815 back-end test files". Results stay: "coverage from zero to 85 percent",
+  "three shows", "millions of players". A sentence that defends
   a title is too on the nose; rejected: "My titles have not said CTO, and I have done a CTO's work
   under them". State what was done and let a reader draw the conclusion (owner rulings,
   2026-11-11).
