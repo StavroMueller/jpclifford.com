@@ -27,9 +27,9 @@ Each line below is a checkable fact, with a source on this site or on his résum
 - Quorum Software, senior software engineer (October 2020 to May 2021). Integrated Landdox into Quorum's enterprise codebase after Quorum bought Landdox.
 - Landdox, full stack engineer and second engineer hired (June 2015 to October 2020). Land management software for oil and gas. Planned and led major features: mapping, bulk data import, and a system that generated payment checks. Worked across Elixir, Node, Angular, React, AWS, and Terraform. Interviewed and hired engineers, and joined sales calls to answer technical questions.
 - BSD Consulting, full stack engineer (2014 to 2015). Sole engineer on a web platform for pipeline data, server and client, from prototype through delivery.
-- Conrad Blucher Institute, undergraduate research assistant (2010 to 2014). Built mobile mapping applications for land surveying, funded in part by NOAA, including survey-grade GPS and RTK field collection.
+- Conrad Blucher Institute, undergraduate research assistant (2010 to 2014). Built mobile mapping applications for land surveying, funded in part by NOAA, including survey-grade GPS and RTK field collection. Programmed Transit Time, a mobile app for the Houston and Galveston ship channel built with NOAA CO-OPS, which took first place at the 2013 Undergraduate Research Symposium. Marine Technology News named him as a programmer on that app in January 2013.
 - Esri and Shell Oil Company, internships (2012 and 2013). Geoprocessing scripts for disaster response at Esri; Python automation for spatial data pipelines and raster generation from raw sonar at Shell.
-- Education: Bachelor of Science, Geographic Information Science and Geomatics, Texas A&M University, Corpus Christi (2009 to 2014).
+- Education: Bachelor of Science, Geographic Information Science and Geomatics, Texas A&M University, Corpus Christi (2009 to 2014). Outstanding Islander award and first place in a Professional Surveying Magazine essay competition, both 2013. Business Incubator program, where he worked on a software product.
 
 ## Technical skills
 
@@ -55,6 +55,7 @@ Each line below is a checkable fact, with a source on this site or on his résum
 - [Outside the Obvious](https://outsidetheobvious.com): photography, books, and prints
 - [Instagram](https://instagram.com/outsidetheobvious): photography
 - [onlytallships.com](https://onlytallships.com): ship's log
+- [Marine Technology News, January 2013](https://www.marinetechnologynews.com/news/mobile-boosts-navigation-safety-473894): names him as a programmer on Transit Time
 
 ## Contact
 
