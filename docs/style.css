@@ -99,6 +99,7 @@ p { margin: 0 0 1rem; max-width: var(--measure); }
 .title a { text-decoration: none; }
 .title a:hover { text-decoration: underline; }
 .lede { max-width: var(--measure); font-size: 1.15rem; line-height: 1.6; margin: 0; color: var(--fg-muted); }
+.tagline { font-family: var(--display); font-weight: 500; font-size: clamp(1.35rem, 2.4vw, 1.75rem); line-height: 1.25; letter-spacing: -.01em; margin: 0 0 1.25rem; color: var(--fg); text-wrap: balance; }
 .lede a, .lede em { color: var(--fg); }
 .muted { color: var(--fg-muted); }
 .verse { white-space: pre-line; max-width: var(--measure); margin: 0 0 1.25rem; }
