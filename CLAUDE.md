@@ -70,7 +70,7 @@ it off per-session with "stop caveman" or "normal mode", and changes level with
 ```
 docs/                  # The site. GitHub Pages serves this folder (Settings > Pages > Source: main, /docs).
   index.html           # All site copy, sections marked with banner comments
-  style.css            # Site design system: ink, newsprint, one gold rule, no rounded corners
+  style.css            # Site design system: dark by default, neutral greys, one signal-orange accent, no rounded corners
   main.js              # Mobile nav, live GitHub repo list, vCard
   Julien-Clifford-Resume.pdf   # Built artifact; never edit by hand
 resume/
@@ -191,6 +191,15 @@ impeccable is the design authority. Every impeccable run loads `PRODUCT.md` and 
 
 - **`PRODUCT.md`**: brand personality, anti-references, design principles, accessibility, **Voice and copy** (every copy ban and the decorative-text ban), and the founder rulings. It describes Atelier Actara; the personality and voice sections are Julien's own and carry over to this site and the résumé.
 - **`DESIGN.md`**: tokens, typography, elevation, named rules (No-Cream, Rationed Gold, Flat-Page and the rest) and the do's and don'ts. `docs/style.css` and `resume/resume.html` must stay inside those tokens.
+
+**No cream, anywhere, under any name.** Nothing this repository produces (the site, the résumé, a
+PDF, a deck, a doc) gets a warm off-white ground or surface. That covers cream, beige, sand, ivory,
+bone, linen, parchment and newsprint alike: impeccable's own rule names the whole warm-neutral band
+(OKLCH L 0.84 to 0.97, chroma under 0.06, hue 40 to 100) as the generated-design default of 2026, and
+a colour in that band reads as cream whatever its token is called. Pages are white or the site's
+dark neutrals. `DESIGN.md`'s newsprint and parchment tokens describe the Atelier Actara app and do
+not apply here; the résumé shipped on newsprint once and Julien rejected it on sight (owner ruling,
+2026-11-11).
 
 When sources disagree, `DESIGN.md` and `PRODUCT.md` win over impeccable's generic defaults. To change a rule, change the file first with Julien's ruling, then the code.
 

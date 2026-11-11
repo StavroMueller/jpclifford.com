@@ -153,7 +153,7 @@ A paper-and-ink palette: a warm bright ground, true black for text and primary a
 
 **The Warm-Neutral Rule.** Every gray in the system leans toward the paper's hue. A cool or blue gray breaks the paper-and-ink illusion at once.
 
-**The No-Cream Rule.** The page is newsprint gray, and no surface is ever cream, beige, sand, ivory or bone. Warmth comes from the serif, the photography and the one gold; a neutral leans toward the gold's hue only at the faint chroma newsprint carries. A token, a class or a variable is never named cream, sand, ivory or beige.
+**The No-Cream Rule.** The page is newsprint gray, and no surface is ever cream, beige, sand, ivory or bone. Warmth comes from the serif, the photography and the one gold; a neutral leans toward the gold's hue only at the faint chroma newsprint carries. A token, a class or a variable is never named cream, sand, ivory or beige. Newsprint (#ECEBE7) and parchment (#D9D7D2) sit inside the warm-neutral band impeccable names as the generated-design default, and read as cream the moment they leave the app chrome: on a document, a PDF, a deck or a standalone page they are banned outright, and anything built from this file outside the Atelier Actara app uses white (owner ruling, 2026-11-11).
 
 ## 3. Typography
 
