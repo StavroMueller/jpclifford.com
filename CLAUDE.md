@@ -217,11 +217,6 @@ Julien had to reject the same underlying fault four separate times.
   product copy; brand and marketing copy may use a short closing sentence, but only after weighing it
   against folding the fact into the sentence before (owner ruling, 2026-10-27). That is why the
   script flags those for review and does not fail them.
-- **For anything customer-facing, the target lives in `.agents/product-marketing-context.md`.** It
-  carries the voice, the approved specimens, and the marketing-genre tells (scene-setting openers,
-  empowerment verbs, benefit abstraction, the reflexive three-item list). 33
-  skills in `.agents/skills/` auto-load that file as their first step, so it reaches the work even when
-  this file does not. These rules are the fence; that file is the target.
 
 
 ## UX preferences
