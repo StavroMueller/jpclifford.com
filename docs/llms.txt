@@ -27,13 +27,13 @@ Each line below is a checkable fact, with a source on this site or on his résum
 - Quorum Software, senior software engineer (October 2020 to May 2021). Integrated Landdox into Quorum's enterprise codebase after Quorum bought Landdox.
 - Landdox, full stack engineer and second engineer hired (June 2015 to October 2020). Land management software for oil and gas. Planned and led major features: mapping, bulk data import, and a system that generated payment checks. Worked across Elixir, Node, Angular, React, AWS, and Terraform. Interviewed and hired engineers, and joined sales calls to answer technical questions.
 - BSD Consulting, full stack engineer (2014 to 2015). Sole engineer on a web platform for pipeline data, server and client, from prototype through delivery.
-- Conrad Blucher Institute, undergraduate research assistant (2010 to 2014). Built mobile mapping applications for land surveying, funded in part by NOAA, including survey-grade GPS and RTK field collection. Programmed Transit Time, a mobile app for the Houston and Galveston ship channel built with NOAA CO-OPS, which took first place at the 2013 Undergraduate Research Symposium. Marine Technology News named him as a programmer on that app in January 2013.
+- Conrad Blucher Institute, undergraduate research assistant (2010 to 2014). Built mobile mapping applications with Perl servers: land surveying tools, funded in part by NOAA, with survey-grade GPS and RTK field collection. Programmed Transit Time, a mobile app for the Houston and Galveston ship channel built with NOAA CO-OPS, which took first place at the 2013 Undergraduate Research Symposium. Marine Technology News named him as a programmer on that app in January 2013. Also worked on Weather on Wheels, a road trip app from the institute that warns a driver of storms forecast along a route.
 - Esri and Shell Oil Company, internships (2012 and 2013). Geoprocessing scripts for disaster response at Esri; Python automation for spatial data pipelines and raster generation from raw sonar at Shell.
 - Education: Bachelor of Science, Geographic Information Science and Geomatics, Texas A&M University, Corpus Christi (2009 to 2014). Outstanding Islander award and first place in a Professional Surveying Magazine essay competition, both 2013. Business Incubator program, where he worked on a software product.
 
 ## Technical skills
 
-- Backend: Elixir, Phoenix, OTP, Absinthe GraphQL, Ecto, Python, Django, Flask, Node, PHP, PostgreSQL
+- Backend: Elixir, Phoenix, OTP, Absinthe GraphQL, Ecto, Python, Django, Flask, Node, PHP, Perl, PostgreSQL
 - Frontend: React, Redux, React Router, Angular, TypeScript, MUI, Tailwind
 - Mobile: Swift and SwiftUI on iOS, Kotlin with Jetpack Compose and Apollo Kotlin on Android
 - Platform: AWS, Google Cloud, Terraform, Docker, Fly.io, CI and CD pipelines
