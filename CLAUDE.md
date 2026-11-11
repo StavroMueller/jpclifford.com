@@ -29,7 +29,7 @@ Julien has severe ADHD with executive dysfunction. The protocols below exist to 
 **Default register: caveman `full`.** Every session starts in caveman mode at the `full` level
 (`.agents/skills/caveman/SKILL.md`), with no announcement and no waiting to be asked. Julien turns
 it off per-session with "stop caveman" or "normal mode", and changes level with
-`/caveman lite|ultra|off`. This is a prose-density setting, not a licence to drop anything above.
+`/caveman lite|ultra|off`. This is a prose-density setting, not a license to drop anything above.
 
 - **Structure always survives compression.** Rules 1, 8, 11 and 13 outrank caveman's "no tool-call
   narration" and "no decorative tables": keep the bolded lead action, the headers, the bullets, the
@@ -70,7 +70,7 @@ it off per-session with "stop caveman" or "normal mode", and changes level with
 ```
 docs/                  # The site. GitHub Pages serves this folder (Settings > Pages > Source: main, /docs).
   index.html           # All site copy, sections marked with banner comments
-  style.css            # Site design system: dark by default, neutral greys, one signal-orange accent, no rounded corners
+  style.css            # Site design system: dark by default, neutral grays, one signal-orange accent, no rounded corners
   main.js              # Mobile nav, live GitHub repo list, vCard
   Julien-Clifford-Resume.pdf   # Built artifact; never edit by hand
 resume/
@@ -150,6 +150,9 @@ Julien had to reject the same underlying fault four separate times.
   ("Set pricing, wrote a financial plan"), or pick "a", "that", "one", "every". Keep "the" where speech
   needs it: "after the acquisition", "from the first commit". Target under about one in eighty words;
   the résumé went from 43 to 9 in 833 words (owner ruling, 2026-11-05).
+- **American spelling.** "color", "gray", "license", "canceled", "-ize". Never "colour", "grey",
+  "licence", "cancelled", "-ise". This covers copy, docs, commit messages, pull requests, and chat
+  (owner ruling, 2026-11-11).
 - **Vary sentence length.** Uniform length is itself a tell. A healthy spread runs roughly 6 to 28
   words with a median near 14. Two short sentences inside one bullet is staccato; merge them.
 - **Say it once.** Do not repeat a fact the title, heading, or neighboring line already states.
@@ -253,7 +256,7 @@ impeccable is the design authority. Every impeccable run loads `PRODUCT.md` and 
 PDF, a deck, a doc) gets a warm off-white ground or surface. That covers cream, beige, sand, ivory,
 bone, linen, parchment and newsprint alike: impeccable's own rule names the whole warm-neutral band
 (OKLCH L 0.84 to 0.97, chroma under 0.06, hue 40 to 100) as the generated-design default of 2026, and
-a colour in that band reads as cream whatever its token is called. Pages are white or the site's
+a color in that band reads as cream whatever its token is called. Pages are white or the site's
 dark neutrals. `DESIGN.md`'s newsprint and parchment tokens describe the Atelier Actara app and do
 not apply here; the résumé shipped on newsprint once and Julien rejected it on sight (owner ruling,
 2026-11-11).
