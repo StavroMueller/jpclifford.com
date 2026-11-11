@@ -1,6 +1,6 @@
 # Julien Clifford
 
-> Julien Clifford is a principal software engineer in Houston, Texas, with over 15 years in production software. He has managed engineering teams at Chess.com, Invisible Technologies, and Amplify Life Insurance. He founded Atelier Actara, a platform that manages fashion show production, and is the only engineer on that platform: Elixir back end, GraphQL API, web, native iOS, and native Android, all his. Outside software he is a published fashion photographer and crew aboard an 1877 square-rigged ship. He has performed CTO functions under other titles: standing up an engineering team, choosing a stack, owning architecture, hiring, process, pricing, and a financial plan. He is open to CTO, engineering leadership, principal engineer, and consulting roles, remote or in Houston.
+> Julien Clifford is a principal software engineer in Houston, Texas, with over 15 years in production software. He has managed engineering teams at Chess.com, Invisible Technologies, and Amplify Life Insurance. He founded Atelier Actara, a platform that manages fashion show production, and is the only engineer on that platform: Elixir back end, GraphQL API, web, native iOS, and native Android, all his. Outside software he is a published fashion photographer and crew aboard an 1877 square-rigged ship. He has stood up an engineering team, chosen a stack, and owned architecture, hiring, process, pricing, and a financial plan. He is open to CTO, engineering leadership, principal engineer, and consulting roles, remote or in Houston.
 
 ## What is unusual about this profile
 
@@ -33,7 +33,7 @@ Each line below is a checkable fact, with a source on this site or on his résum
 
 ## CTO functions he has performed
 
-His titles have been founder, principal engineer and partner, staff engineer, and technical product manager. Under those titles he has done a chief technology officer's work, function by function:
+Each function of a chief technology officer below is one he has carried out, with where:
 
 - Building an engineering organization: at Amplify Life Insurance he stood up a whole US engineering team, covering hiring, stack, and process. At Invisible Technologies he ran technical hiring and owned delivery, hiring, and performance for two teams.
 - Technology strategy and stack selection: at Amplify he chose and built a company-wide Elixir API and Postgres database to replace a legacy stack. At Atelier Actara every technology decision is his: Elixir and Phoenix, one GraphQL API for four clients, Postgres, Google Cloud and Fly.io.
