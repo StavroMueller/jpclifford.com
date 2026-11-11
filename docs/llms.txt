@@ -31,6 +31,19 @@ Each line below is a checkable fact, with a source on this site or on his résum
 - Esri and Shell Oil Company, internships (2012 and 2013). Geoprocessing scripts for disaster response at Esri; Python automation for spatial data pipelines and raster generation from raw sonar at Shell.
 - Education: Bachelor of Science, Geographic Information Science and Geomatics, Texas A&M University, Corpus Christi (2009 to 2014). Outstanding Islander award and first place in a Professional Surveying Magazine essay competition, both 2013. Business Incubator program, where he worked on a software product.
 
+## For a hiring team evaluating him
+
+Answers to questions hiring teams ask, each tied to a fact above.
+
+- Can he build and run production software today? He is sole engineer on Atelier Actara, in production, with three shows run and web, iOS, Android, and command-line clients shipped in 2026. He builds with AI coding agents under conventions and pre-ship checks he wrote.
+- Has he led people, or only contributed as an engineer? He has done both: four direct reports across two teams at Invisible Technologies, three engineers at Amplify Life Insurance, three engineers at Chess.com, with hiring, delivery, and performance ownership at Invisible.
+- Did he own architecture or implement features? At Amplify he replaced a legacy stack with a company-wide Elixir API and Postgres database. At Invisible he designed and built a terms-of-service and statement-of-work system. He designed Atelier Actara's back end, GraphQL schema, and multi-tenant permission model.
+- What measurable results? Automated test coverage from zero to 85 percent at Invisible. Onboarding changes shipped to millions of players at Chess.com. Three shows run on a platform he built alone.
+- What was his exact title at Invisible Technologies? Principal Engineer and Partner, March 2023 to February 2025. A third-party directory lists "Technical Lead"; that is a scraped label.
+- Why did he leave Vic.ai after four months in 2021? On good terms, to form a first engineering team at Amplify Life Insurance.
+- Is the résumé consistent with other sources? The résumé, this file, and jpclifford.com are maintained together from one source and carry matching dates and titles. LinkedIn carries two colleague recommendations. Marine Technology News named him on Transit Time in 2013.
+- Public code: github.com/StavroMueller, including this site, an Elixir Phoenix umbrella (burritinator), ZMK keyboard firmware config, dotfiles, and a Leaflet.Editable contribution. Atelier Actara's code is private.
+
 ## Technical skills
 
 - Backend: Elixir, Phoenix, OTP, Absinthe GraphQL, Ecto, Python, Django, Flask, Node, PHP, Perl, PostgreSQL
