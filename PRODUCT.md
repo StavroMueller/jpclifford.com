@@ -51,8 +51,7 @@ Voice is fashion-native: industry terminology throughout (casting, lineup, call 
 ## Voice and copy
 
 This section governs every word on screen. It is the home for the product-copy rules; the
-writing rules for everything else live in `CLAUDE.md` under "Writing rules", and the target
-voice with approved specimens lives in `.agents/product-marketing-context.md`.
+writing rules for everything else live in `CLAUDE.md` under "Writing rules".
 
 ### Where every copy safeguard lives
 
@@ -60,7 +59,6 @@ voice with approved specimens lives in `.agents/product-marketing-context.md`.
 | --- | --- | --- |
 | Product copy rules | this section | The bans below, for every label, heading, button, empty state and message in the app |
 | Writing rules | `CLAUDE.md`, "Writing rules" and "UX preferences" | "Report, do not perform", the antithesis ban, stubs, fragments, the read-aloud test, the sweep rule |
-| Voice target | `.agents/product-marketing-context.md` | Who we write for, approved specimens, marketing-genre tells |
 | Tell list | `.agents/skills/seo-audit/references/ai-writing-detection.md` | Overused verbs and adjectives, transitions, filler, academic tells, em dashes |
 | Checker | `node tools/copy-check/check.mjs <file>` | Fails on the word and phrase tells; prints structural notes for review |
 | UX copy mechanics | impeccable `clarify` (`reference/clarify.md`) | Error messages, labels and instructions; this section wins where they differ |
