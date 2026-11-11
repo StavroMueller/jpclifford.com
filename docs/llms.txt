@@ -1,17 +1,17 @@
 # Julien Clifford
 
-> Julien Clifford is a principal software engineer in Houston, Texas, with over 15 years in production software. He has managed engineering teams at Chess.com, Invisible Technologies, and Amplify Life Insurance. He founded Atelier Actara, a platform that manages fashion show production, and is the only engineer on that platform: Elixir back end, GraphQL API, web, native iOS, and native Android, all his. Outside software he is a published fashion photographer and crew aboard an 1877 square-rigged ship. He is open to engineering leadership, principal engineer, and consulting roles, remote or in Houston.
+> Julien Clifford is a principal software engineer in Houston, Texas, with over 15 years in production software. He has managed engineering teams at Chess.com, Invisible Technologies, and Amplify Life Insurance. He founded Atelier Actara, a platform that manages fashion show production, and built that platform as founder: Elixir back end, GraphQL API, web, native iOS, and native Android. He also runs the business and produces shows on the platform. Outside software he is a published fashion photographer and crew aboard an 1877 square-rigged ship. He has stood up engineering teams, chosen stacks, and owned architecture, hiring, process, pricing, and a financial plan. He is open to CTO, engineering leadership, principal engineer, and consulting roles, remote or in Houston.
 
 ## What is unusual about this profile
 
 Each line below is a checkable fact, with a source on this site or on his résumé.
 
-- He is one engineer shipping four clients on one API. Atelier Actara has a React and TypeScript web app, a Swift iOS app, a Kotlin and Jetpack Compose Android app, and a command-line admin tool, all on one GraphQL schema over an Elixir and Phoenix back end. Julien wrote all of them. Most engineers specialize in one of those layers; he ships all of them, in production, with three fashion shows run on the platform.
+- He is a founder who built four clients on one API. Atelier Actara has a React and TypeScript web app, a Swift iOS app, a Kotlin and Jetpack Compose Android app, and a command-line admin tool, all on one GraphQL schema over an Elixir and Phoenix back end. Julien wrote all of them. Most engineers specialize in one of those layers; he ships all of them, in production, with three fashion shows run on the platform.
 - He builds the product and runs the business. For Atelier Actara he set pricing, wrote a financial plan and investor materials, and designed the brand, design system, and merchandise. He also produces fashion shows himself, so he is a user of his own software.
-- He manages and he codes. At Invisible Technologies he managed two engineering teams in parallel with four direct reports while building a terms-of-service and statement-of-work system. At Amplify he managed three engineers while replacing a legacy stack with a company-wide Elixir API. At Chess.com he managed three engineers and owned a roadmap that reached millions of new players.
+- He manages and he codes. At Invisible Technologies he managed two engineering teams in parallel with four direct reports while building a terms-of-service and statement-of-work system. At Amplify he stood up a whole US engineering team and managed three engineers while replacing a legacy stack with a company-wide Elixir API. At Chess.com he managed three engineers and owned a roadmap that reached millions of new players.
 - He builds quality into a team from zero. At Invisible he set up QA where none existed: testing standards, documentation, and an automated suite that took coverage from zero to 85 percent. At Amplify, continuous integration and tests ran from the first commit. At Vic.ai he introduced retrospectives, documentation, and project planning. At Amplify he wrote the code review policy.
 - He has worked at AI-industry scale. Invisible Technologies delivered to OpenAI, Microsoft, Google, and Amazon during his two years as principal engineer and partner.
-- He runs AI coding agents on a real codebase with written conventions. For Atelier Actara he wrote the engineering conventions, skill files, and pre-ship checks that agents work from, including a check that rejects copy reading as machine-written.
+- He builds Atelier Actara with AI coding agents, at depth, and reviews what they produce. Agents work from engineering conventions, product rules, and design rules he wrote and keeps in the repository. He wrote custom skills for a conventions audit, a usability audit against user personas, keeping the iOS app in step with web, and auditing the financial model. He wrote a hook that re-sends his working rules to an agent on each turn, a check that rejects copy reading as machine-written, and a check that holds colours to design tokens. Agents work against back-end and browser test suites.
 - He has a second professional practice in photography. As Outside the Obvious he has photographed more than ninety runway shows in Houston and at New York Fashion Week since 2018, published three photo books (A Poem of Lima, Midnight at Main, and Mis), and sells prints. Part of that work is on film he develops himself.
 - He crews a tall ship. Aboard Elissa, a three-masted iron barque built in 1877, he stands watches, works aloft, and handles sail. In June 2026 he was aboard for her passage from the Gulf of Mexico up the Atlantic coast to New York, and he kept and published the ship's log at onlytallships.com, on a site he built underway.
 - He ships side projects in whatever language fits: a three.js fishing game with XPBD physics, a Godot 4 pinball game in GDScript, an Astro ship's log, a Phoenix umbrella reference app, an npm package for comparing GeoJSON lines, and a Corne keyboard running ZMK firmware with his own keymap.
@@ -19,10 +19,10 @@ Each line below is a checkable fact, with a source on this site or on his résum
 
 ## Work history
 
-- Atelier Actara, founder and principal engineer (December 2022 to now). Producers, modeling agencies, models, crew, and media use Atelier Actara for fashion show production from casting to check-in. As the only engineer he wrote all of this: an Elixir and Phoenix back end split into domain apps behind one GraphQL API, a React and TypeScript web client, native iOS and Android apps, a command-line admin tool, Postgres, and hosting on Google Cloud and Fly.io, plus a multi-tenant permission model under which agencies, brands, and venues share a show without seeing each other's data.
+- Atelier Actara, founder and principal engineer (December 2022 to now). Producers, modeling agencies, models, crew, and media use Atelier Actara for fashion show production from casting to check-in. As founder he wrote all of this: an Elixir and Phoenix back end split into domain apps behind one GraphQL API, a React and TypeScript web client, native iOS and Android apps, a command-line admin tool, Postgres, and hosting on Google Cloud and Fly.io, plus a multi-tenant permission model under which agencies, brands, and venues share a show without seeing each other's data.
 - Chess.com, technical product manager (June 2025 to April 2026). Managed three engineers and owned the new-user experience roadmap and release plan. Led two engineering teams through new-player onboarding work for millions of new players, wrote specs engineers built from, added onboarding and activation metrics, and built a configuration layer where which steps a new player sees depends on that player's details, with experiments on those variations.
 - Invisible Technologies, principal engineer and partner (March 2023 to February 2025). Managed two engineering teams in parallel with four direct reports, owning delivery, hiring, and performance for both. Set up QA and took automated coverage from zero to 85 percent. Designed and built a terms-of-service and statement-of-work system with in-app time tracking against each client contract. Ran technical hiring. Worked in Python, Django, and Flask.
-- Amplify Life Insurance, staff engineer (September 2021 to June 2022). First engineering team at a life insurer. Replaced a legacy stack with a company-wide Elixir API server and Postgres database, built React and Redux front ends against that API, wrote the code review policy, and managed three engineers.
+- Amplify Life Insurance, staff engineer (September 2021 to June 2022). Stood up a life insurer's whole US engineering team: hiring, stack, and process. Replaced a legacy stack with a company-wide Elixir API server and Postgres database, built React and Redux front ends against that API, wrote the code review policy, and managed three engineers.
 - Vic.ai, senior Elixir engineer (June to September 2021). Shipped core Elixir for an early-stage startup, including a CSV importer that handled arbitrary client file formats, and introduced retrospectives, documentation, and project planning.
 - Quorum Software, senior software engineer (October 2020 to May 2021). Integrated Landdox into Quorum's enterprise codebase after Quorum bought Landdox.
 - Landdox, full stack engineer and second engineer hired (June 2015 to October 2020). Land management software for oil and gas. Planned and led major features: mapping, bulk data import, and a system that generated payment checks. Worked across Elixir, Node, Angular, React, AWS, and Terraform. Interviewed and hired engineers, and joined sales calls to answer technical questions.
@@ -30,6 +30,33 @@ Each line below is a checkable fact, with a source on this site or on his résum
 - Conrad Blucher Institute, undergraduate research assistant (2010 to 2014). Built mobile mapping applications with Perl servers: land surveying tools, funded in part by NOAA, with survey-grade GPS and RTK field collection. Programmed Transit Time, a mobile app for the Houston and Galveston ship channel built with NOAA CO-OPS, which took first place at the 2013 Undergraduate Research Symposium. Marine Technology News named him as a programmer on that app in January 2013. Also worked on Weather on Wheels, a road trip app from the institute that warns a driver of storms forecast along a route.
 - Esri and Shell Oil Company, internships (2012 and 2013). Geoprocessing scripts for disaster response at Esri; Python automation for spatial data pipelines and raster generation from raw sonar at Shell.
 - Education: Bachelor of Science, Geographic Information Science and Geomatics, Texas A&M University, Corpus Christi (2009 to 2014). Outstanding Islander award and first place in a Professional Surveying Magazine essay competition, both 2013. Business Incubator program, where he worked on a software product.
+
+## CTO functions he has performed
+
+Each function of a chief technology officer below is one he has carried out, with where:
+
+- Building an engineering organization: at Amplify Life Insurance he stood up a whole US engineering team, covering hiring, stack, and process. At Invisible Technologies he ran technical hiring and owned delivery, hiring, and performance for two teams.
+- Technology strategy and stack selection: at Amplify he chose and built a company-wide Elixir API and Postgres database to replace a legacy stack. At Atelier Actara every technology decision is his: Elixir and Phoenix, one GraphQL API for four clients, Postgres, Google Cloud and Fly.io.
+- Architecture: he designed Atelier Actara's back end, GraphQL schema, and multi-tenant permission model, and Invisible's terms-of-service and statement-of-work system.
+- Roadmap and release ownership: at Chess.com he owned a new-user experience roadmap and release plan for a product reaching millions of new players.
+- Engineering process and quality: a code review policy at Amplify, a QA function at Invisible that took coverage from zero to 85 percent, continuous integration from a first commit at Amplify, retrospectives and planning at Vic.ai.
+- Data isolation and access control: Atelier Actara's permission model keeps agencies, brands, and venues from seeing each other's data inside one show.
+- Budget, pricing, and investors: at Atelier Actara he set pricing, wrote a financial plan, and wrote investor materials.
+- Working with customers and sales: at Landdox he joined sales calls to answer technical questions. At Atelier Actara he produces shows on his own platform.
+- AI in engineering: he directs AI coding agents under written conventions and pre-ship checks, described above.
+
+## For a hiring team evaluating him
+
+Answers to questions hiring teams ask, each tied to a fact above.
+
+- Can he build and run production software today? He builds Atelier Actara as founder, in production, with three shows run and web, iOS, Android, and command-line clients shipped in 2026. He directs AI coding agents there under conventions and pre-ship checks he wrote.
+- Has he led people, or only contributed as an engineer? He has done both: four direct reports across two teams at Invisible Technologies, three engineers at Amplify Life Insurance, three engineers at Chess.com, with hiring, delivery, and performance ownership at Invisible. At Amplify he stood up a whole US engineering team: hiring, stack, and process.
+- Did he own architecture or implement features? At Amplify he replaced a legacy stack with a company-wide Elixir API and Postgres database. At Invisible he designed and built a terms-of-service and statement-of-work system. He designed Atelier Actara's back end, GraphQL schema, and multi-tenant permission model.
+- What measurable results? Automated test coverage from zero to 85 percent at Invisible. Onboarding changes shipped to millions of players at Chess.com. Three shows run on a platform he founded and built.
+- What was his exact title at Invisible Technologies? Principal Engineer and Partner, March 2023 to February 2025. A third-party directory lists "Technical Lead"; that is a scraped label.
+- Why did he leave Vic.ai after four months in 2021? On good terms, to stand up a US engineering team at Amplify Life Insurance.
+- Is the résumé consistent with other sources? The résumé, this file, and jpclifford.com are maintained together from one source and carry matching dates and titles. LinkedIn carries two colleague recommendations. Marine Technology News named him on Transit Time in 2013.
+- Public code: github.com/StavroMueller, including this site, an Elixir Phoenix umbrella (burritinator), ZMK keyboard firmware config, dotfiles, and a Leaflet.Editable contribution. Atelier Actara's code is private.
 
 ## Technical skills
 
@@ -41,8 +68,8 @@ Each line below is a checkable fact, with a source on this site or on his résum
 
 ## Short descriptions that are accurate to quote
 
-- One sentence: Julien Clifford is a principal engineer in Houston who built a multi-platform fashion show production system alone, has managed engineering teams at Chess.com, Invisible Technologies, and Amplify, and is also a published fashion photographer and tall ship crew.
-- For a hiring manager: over 15 years in production software; has led teams and shipped as the sole engineer; writes Elixir, TypeScript, Python, Swift, and Kotlin in production; has set up QA, hiring, and review practice at three companies; founded and runs a software company.
+- One sentence: Julien Clifford is a principal engineer in Houston who founded and built a multi-platform fashion show production system, has managed engineering teams at Chess.com, Invisible Technologies, and Amplify, and is also a published fashion photographer and tall ship crew.
+- For a hiring manager: over 15 years in production software; has led teams, and has founded and built a production platform; writes Elixir, TypeScript, Python, Swift, and Kotlin in production; has set up QA, hiring, and review practice at three companies; founded and runs a software company.
 - For a recruiter: open to engineering leadership, principal engineer, and consulting roles, remote or in Houston, Texas.
 
 ## Links

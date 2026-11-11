@@ -92,6 +92,7 @@ Nothing outside `docs/` is served. Keep it that way: this file, the rules and th
 - After a build, copy the PDF to iCloud so the copy Julien sends is current:
   `cp docs/Julien-Clifford-Resume.pdf "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Julien-Clifford-Resume.pdf"`
 - Every fact on the résumé is Julien's. Reword, reorder, cut. Never add a claim he did not state.
+- At Atelier Actara Julien is the founder: he builds the software, runs the business, and produces shows. Never call him the "sole engineer" or "only engineer" there; that label shrinks the role (owner ruling, 2026-11-11). "Sole engineer" stays correct for BSD Consulting.
 
 ## Site
 
@@ -161,6 +162,13 @@ Julien had to reject the same underlying fault four separate times.
   tell. State the scope as a fact ("the only engineer") and list the parts ("back end, web, iOS,
   Android, admin tool"). Sweep for "every layer", "every part", "every word", "end to end",
   "from X to Y" used as a boast (owner ruling, 2026-11-11).
+- **No size stats, and no arguing about titles.** A count of commits, words, or files says nothing
+  about the work; rejected: "agents authored about half of 11,000 commits in 2026", "18,000 words
+  of conventions", "815 back-end test files". Results stay: "coverage from zero to 85 percent",
+  "three shows", "millions of players". A sentence that defends
+  a title is too on the nose; rejected: "My titles have not said CTO, and I have done a CTO's work
+  under them". State what was done and let a reader draw the conclusion (owner rulings,
+  2026-11-11).
 - **Check every claim against the thing itself.** Before a sentence about a product ships, open
   the product or the code and confirm each fact in the sentence. Copy lifted from another page of
   ours gets the same check, because an approved page can be wrong (owner ruling, 2026-11-09).
