@@ -92,6 +92,7 @@ Nothing outside `docs/` is served. Keep it that way: this file, the rules and th
 - After a build, copy the PDF to iCloud so the copy Julien sends is current:
   `cp docs/Julien-Clifford-Resume.pdf "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Julien-Clifford-Resume.pdf"`
 - Every fact on the résumé is Julien's. Reword, reorder, cut. Never add a claim he did not state.
+- At Atelier Actara Julien is the founder: he builds the software, runs the business, and produces shows. Never call him the "sole engineer" or "only engineer" there; that label shrinks the role (owner ruling, 2026-11-11). "Sole engineer" stays correct for BSD Consulting.
 
 ## Site
 
