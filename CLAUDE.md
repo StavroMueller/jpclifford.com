@@ -164,7 +164,13 @@ Julien had to reject the same underlying fault four separate times.
     away" (the game's code says nobody reels, so every fish gets off).
 - **A product does not act like a person.** A game does not "put", "wait", "want" or "let you".
   Say what a person sees or does. Rejected: "Rod Tips Only puts five fishing rods on a dock and
-  waits for a bite" (say "Rod Tips Only shows five fishing rods").
+  waits for a bite" (say "Rod Tips Only shows five fishing rods"). Also rejected: "Atelier Actara
+  carries a show from casting to the door" (say "On Atelier Actara, producers build the lineup"),
+  "a permission model that lets agencies share a show" (say "under which agencies share a show"),
+  "a configuration layer that chooses which steps a player sees" (say "where which steps a player
+  sees depends on that player's details"). A product name or a component as the subject of a
+  doing verb is the pattern; sweep for "carries", "lets", "chooses", "uses", "runs", "manages"
+  with a thing as subject (owner ruling, 2026-11-11).
 - **No metaphor where the literal word exists.** Rejected: "a chain of rigid links" (say "made of
   rigid links"). This is separate from the metaphor-reuse ban above: one metaphor is already one
   too many when a plain noun does the job.
