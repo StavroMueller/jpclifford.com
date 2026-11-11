@@ -136,11 +136,11 @@ A paper-and-ink palette: a warm bright ground, true black for text and primary a
 
 ### Accent
 
-- **Gold** (#846420): 4.60:1 on newsprint, so it can carry small text on paper. That margin over the 4.5:1 floor is the hard limit on the page colour: a ground darker than #EAE9E5 fails every gold label, so a darker page needs a darker gold first. On ink it measures 3.82:1, which clears the 3:1 floor for non-text elements. The notification badge on the sidebar stays gold on that basis.
+- **Gold** (#846420): 4.60:1 on newsprint, so it can carry small text on paper. That margin over the 4.5:1 floor is the hard limit on the page color: a ground darker than #EAE9E5 fails every gold label, so a darker page needs a darker gold first. On ink it measures 3.82:1, which clears the 3:1 floor for non-text elements. The notification badge on the sidebar stays gold on that basis.
 
 ### Semantic
 
-- **Error** (#9E3B2C) is the runway ramp's brick and marks failures and validation copy at 5.65:1 on newsprint; destructive buttons take the ramp's oxblood (#7A1E24). **Success** (#46552B) is the ramp's moss and carries confirmed states at 6.78:1 on newsprint. Pending states take burnt orange (#C0661C) and open states take plum (#6A2C4F), so every semantic colour is a hue the runway ramp already owns.
+- **Error** (#9E3B2C) is the runway ramp's brick and marks failures and validation copy at 5.65:1 on newsprint; destructive buttons take the ramp's oxblood (#7A1E24). **Success** (#46552B) is the ramp's moss and carries confirmed states at 6.78:1 on newsprint. Pending states take burnt orange (#C0661C) and open states take plum (#6A2C4F), so every semantic color is a hue the runway ramp already owns.
 
 ### Data encodings
 

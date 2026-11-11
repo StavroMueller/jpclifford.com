@@ -121,9 +121,9 @@ Decisions that the code obeys but cannot state. Each was recorded in a source
 comment until the 2026-09-18 comment audit moved it here. Reversing one is a
 product decision, not a cleanup.
 
-### A cancelled show renders no open calls
+### A canceled show renders no open calls
 
-A show marked cancelled suppresses its open calls, even when its date is still ahead. The
+A show marked canceled suppresses its open calls, even when its date is still ahead. The
 invitation to credit your work follows the record like everything else, and an earlier version of
 this ruling that also suppressed the invitation was superseded on 2026-10-27, and re-adding the
 invitation's suppression needs a new ruling.
@@ -222,7 +222,7 @@ screen regardless of tab length or scroll position. Founder ruling.
 
 Source: `frontend/app/shows/showEdit.styles.ts`.
 
-### A cast row keeps its type-tinted fill and loses only its coloured left edge
+### A cast row keeps its type-tinted fill and loses only its colored left edge
 
 Taken against the recommendation to drop both the fill and the 3px `typeColors[*].border` stripe
 each cast row carried. The fill costs nothing on contrast (names measure 14.42 to 15.01, roles 5.80
@@ -370,7 +370,7 @@ Source: `frontend/app/people/PublicProfilePage.tsx` and `frontend/app/exports/Ex
 
 ### A show's status never outranks the record
 
-A live credit on the record counts wherever the record is read, whether its show is cancelled, upcoming or past. Julien's veto of 234 D-24 on 2026-10-26 made a cancelled show count toward "first show" again (TEAR-06). Reopening a status-based exclusion on the record needs his ruling first. From 2026-10-27, the tearsheet and the invitation to credit your work are offered on a cancelled show that has taken place. Founder ruling of 2026-10-26 (Phase 235, D-03).
+A live credit on the record counts wherever the record is read, whether its show is canceled, upcoming or past. Julien's veto of 234 D-24 on 2026-10-26 made a canceled show count toward "first show" again (TEAR-06). Reopening a status-based exclusion on the record needs his ruling first. From 2026-10-27, the tearsheet and the invitation to credit your work are offered on a canceled show that has taken place. Founder ruling of 2026-10-26 (Phase 235, D-03).
 
 Source: `backend/apps/record/lib/backend/record/current_facts.ex`, `backend/apps/home/lib/backend/home/queries/get_viewer_tearsheets.ex` and `frontend/app/shows/resolveShowActions.ts`.
 
